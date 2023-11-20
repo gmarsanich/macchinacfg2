@@ -1,0 +1,58 @@
+# Yttrium
+
+spacing         = 1
+padding         = 0
+hide_ascii      = false
+prefer_small_ascii = true
+separator       = "λ"
+key_color       = "#7156a8"
+separator_color = "White"
+
+
+[palette]
+type = "Dark"
+visible = true
+glyph = " ⬤ "
+
+[bar]
+glyph           = "+"
+symbol_open     = '​' #funny 0 width space
+symbol_close    = '​'
+hide_delimiters = false
+visible         = true
+
+[box]
+title 	        = " yttrium "
+border          = "round"
+visible         = true
+
+[box.inner_margin]
+x               = 1
+y               = 1
+
+[custom_ascii]
+color 			= "#7156a8"
+path 			= "C:\\Users\\Giacomo\\AppData\\Roaming\\macchina\\themes\\terminal_logo_alt.txt"
+
+[randomize]
+key_color       = false
+separator_color = false
+
+# [keys]
+# host="👨🏻‍💻"
+# machine="⚙️"
+# kernel="🌽"
+# packages="📦"
+# cpu="💽"
+# memory="🐏"
+# uptime="⌛"
+# os="🖥️"
+[keys]
+host="host"
+machine="machine"
+kernel="kernel"
+packages="packages"
+cpu="cpu"
+memory="memory"
+uptime="uptime"
+os="os"
